@@ -12,10 +12,10 @@ app.config['UPLOAD_FOLDER'] = "uploads"
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Initialize Groq Client
-client = Groq(api_key="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")  # Replace with your actual API key
+client = Groq(api_key="")  # Replace with your actual API key
 
 # Configure Google AI
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDmRzJ2NbaaCA2ckK9eb8lAqnhH3AFhfrc"  # Replace with your actual API key
+os.environ["GOOGLE_API_KEY"] = ""  # Replace with your actual API key
 
 vector_store = None  # Global variable to store FAISS index
 
