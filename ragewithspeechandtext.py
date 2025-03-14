@@ -13,10 +13,10 @@ app.config['UPLOAD_FOLDER'] = "uploads"
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Initialize Groq Client
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 # Configure Google AI
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDxdEEVA1w-BC4PK_LQ205HC8M6Z_dnbaM"
+os.environ["GOOGLE_API_KEY"] = ""
 
 vector_store = None
 
